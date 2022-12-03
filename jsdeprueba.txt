@@ -1,0 +1,70 @@
+// let email = '1@2';
+// const password = '10';
+// let validMail;
+// let login = false;
+// let userName;
+// let userEmail;
+// let userPassword;
+
+// const loginValidator = function() {
+//   userName = prompt('Ingresa tu nombre');
+
+//   while (email !== userEmail) {
+//     userEmail = prompt('Ingresa tu usuario:');
+//     if (email !== userEmail) alert('Su usuario es erróneo, vuelva a ingresarlo.')
+//   } 
+
+//   while (password !== userPassword) {
+//     userPassword = prompt('Ingresa tu password');
+//     if (password !== userPassword) alert('Su contraseña es incorrecta, vuelva a ingresarla.')
+//   }
+  
+//   // Me salteo la porte en que ambos son incorrectos porque 
+//   //lo obligo a ponerlos bien.
+
+//   login = true; 
+//   alert('Te haz logueado correctamente.');
+// }
+
+// const saludar = function(login) {
+//   if (login === true) alert(`Bienvenido ${userName}.`)
+// }
+
+// const checkEmail = function(email) {
+//   for (let i = 0; i < email.length; i++) {
+//     if (email[i] === '@') {
+//     console.log('Es un mail valido');     
+//     break;
+//     }  
+//   }
+// }
+
+// const checkPasswordLength = function(password) {
+//   if (password.length >= 8) return true
+//   alert('Su contraseña es insegura.')
+// } 
+
+// const checkPasswordNumber = function(password, firstCheck) {
+//   for (let i = 0; i < password.length; i++) {
+//     if (typeof password[i] === 'number') return console.log('La contraseña tiene al menos un numero.');
+//   }
+  
+//   let wannaChange; 
+//   if (firstTime === true) {
+//     while (wannaChange !== 'SI' || wannaChange !== 'NO') {
+//       wannaChange = prompt('Su contraseña debe tener caracteres alfanuméricos. Desea cambiarla?', 'SI / NO');
+      
+//     }
+//   }
+  
+//   if (wannaChange === 'SI' || firstCheck === undefined) {
+//     password = prompt('Tu contraseña necesita al menos un numero, ingrese una nueva contraseña:')
+//     checkPasswordNumber(password)
+//   }
+
+// }
+
+
+// loginValidator();
+// saludar(login);
+// checkEmail(userEmail);
